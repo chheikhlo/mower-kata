@@ -59,7 +59,7 @@ public class OrientationTest {
 
     // ----------------For turnRight orientation---------------------
     @Test
-    void turnRightFromNorthShouldReturnEast() {
+    public void turnRightFromNorthShouldReturnEast() {
         // from north orientation
         Orientation orientation = Orientation.N;
 
@@ -71,7 +71,7 @@ public class OrientationTest {
     }
 
     @Test
-    void turnRightFromEastShouldReturnSouth() {
+    public void turnRightFromEastShouldReturnSouth() {
         // from east orientation
         Orientation orientation = Orientation.E;
 
@@ -83,7 +83,7 @@ public class OrientationTest {
     }
 
     @Test
-    void turnRightFromSouthShouldReturnWest() {
+    public void turnRightFromSouthShouldReturnWest() {
         // from south orientation
         Orientation orientation = Orientation.S;
 
@@ -95,7 +95,7 @@ public class OrientationTest {
     }
 
     @Test
-    void turnRightFromWestShouldReturnNorth() {
+    public void turnRightFromWestShouldReturnNorth() {
         // from west orientation
         Orientation orientation = Orientation.W;
 
@@ -105,5 +105,4 @@ public class OrientationTest {
         // finally, face it to north ?
         Assertions.assertEquals(Orientation.N, result);
     }
-
 }
