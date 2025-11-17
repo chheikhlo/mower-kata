@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  mower:
+    image: maven:3.9.6-eclipse-temurin-17
+    working_dir: /workspace
+    volumes:
+      - .:/workspace
