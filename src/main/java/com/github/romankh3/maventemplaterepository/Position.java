@@ -31,9 +31,9 @@ public class Position {
     }
 
     /**
-     * to return a new position moved by NewX and NewY.
+     * to return a new position moved by newX and newY.
      */
-    public Position move(int NewX, int NewY) {
-        return new Position(x + NewX, y + NewY);
+    public Position move(int newX, int newY) {
+        return new Position(x + newX, y + newY);
     }
 }

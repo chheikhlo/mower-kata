@@ -13,7 +13,7 @@ public class PositionTest {
         // (x=1, y=2)
         Position position = new Position(1, 2);
 
-        // move by (NewX=0, NewY=1)
+        // move by (newX=0, newY=1)
         Position newPosition = position.move(0, 1);
 
         // finally x=1+0=1 , y=2+1=3
@@ -26,7 +26,7 @@ public class PositionTest {
         // (x=1, y=3)
         Position position = new Position(1, 3);
 
-        // move by (NewX=0, NewY=-1)
+        // move by (newX=0, newY=-1)
         Position newPosition = position.move(0, -1);
 
         // finally x=1+0=1 , y=3-1=2
@@ -39,7 +39,7 @@ public class PositionTest {
         // (x=2, y=2)
         Position position = new Position(2, 2);
 
-        // move by (NewX=2, NewY=0)
+        // move by (newX=2, newY=0)
         Position newPosition = position.move(2, 0);
 
         // finally x=2+2=4 , y=2+0=2
@@ -52,7 +52,7 @@ public class PositionTest {
         // (x=4, y=2)
         Position position = new Position(4, 2);
 
-        // move by (NewX=-2, NewY=0)
+        // move by (newX=-2, newY=0)
         Position newPosition = position.move(-2, 0);
 
         // finally x=4-2=2 , y=2+0=2
