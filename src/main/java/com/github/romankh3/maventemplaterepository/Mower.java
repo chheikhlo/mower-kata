@@ -72,7 +72,7 @@ public class Mower {
         }
     }
 
-    public void executeCommands(String commands) {
+    public void instructionsMower(String commands) {
         for (char c : commands.toCharArray()) {
             if (c == 'G') {
                 turnLeft();

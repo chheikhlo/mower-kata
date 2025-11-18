@@ -85,7 +85,7 @@ public class MowerTest {
         Mower mower = new Mower(position, orientation, lawn);
 
         // execute commands from the kata example
-        mower.executeCommands("GAGAGAGAA");
+        mower.instructionsMower("GAGAGAGAA");
 
         // final state must be 1,3,N
         Assertions.assertEquals(1, mower.getPosition().getX());
