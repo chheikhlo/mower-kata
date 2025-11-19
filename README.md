@@ -1,26 +1,50 @@
-## Overview
-Repository with preconfigured maven project with junit5 configuration on a board.
+# Mower Kata – Java
 
-## Building
-...
+Ce projet est une implémentation du kata des tondeuses.  
+L’objectif est de simuler plusieurs tondeuses se déplaçant sur une pelouse rectangulaire.
 
-## Troubleshooting
-...
+Je suis parti du template fourni dans le repository fourni sur les recommendations du test, puis j’ai ajouté toute la logique métier, les classes nécessaires et les tests.
 
-## Release Notes
-Can be found in [RELEASE_NOTES](RELEASE_NOTES.md).
+## 📐 Diagramme de classes
 
-## Authors
-* Roman Beskrovnyi - [romankh3](https://github.com/romankh3)
+Ce diagramme résume la structure globale utilisée dans le projet :
 
-## Acknowledgments
-...
+![UML Diagram](uml.png)
 
-## Contributing
-Please, follow [Contributing](CONTRIBUTING.md) page.
+## Structure du projet
 
-## Code of Conduct
-Please, follow [Code of Conduct](CODE_OF_CONDUCT.md) page.
+Le projet est organisé en plusieurs classes, chacune ayant un rôle clair :
 
-## License
-This project is Apache License 2.0 - see the [LICENSE](LICENSE) file for details
+- **`Lawn`** : représente la pelouse (dimensions)
+- **`Position`** : gère les coordonnées x/y
+- **`Orientation`** : représente l'orientation (N, E, S, W)
+- **`Mower`** : contient la logique de déplacement d'une tondeuse
+- **`InputParser`** : interprète les lignes du fichier d’entrée
+- **`MowerSimulation`** : lance la simulation complète
+
+## Exemple d’exécution depuis l'énoncé
+
+**Entrée :**
+5 5
+1 2 N
+GAGAGAGAA
+3 3 E
+AADAADADDA
+
+**Sortie attendue :**
+1 3 N 
+5 1 E
+
+![UML Diagram](uml.png)
+
+**Note : vous pouvez tester d'autre scénarios en changeant l'entrée dans le fichier MowerSimulationTest**
+
+## Utilisation avec Docker & Makefile
+
+J'ai choisi de dockeriser le projet comme ça aucune installation locale de Java ou Maven n'est nécessaire.
+
+### Lancer le test de simulation
+
+Pour tester ou simuler
+```bash
+make simulation

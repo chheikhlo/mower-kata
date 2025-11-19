@@ -26,6 +26,7 @@ public class MowerSimulationTest {
 
         // to simulate all mowers
         String result = simulation.simulate(lines);
+        System.out.println(result);
 
         // expected final positions like from the kata description
         String expected = "1 3 N\n5 1 E";
