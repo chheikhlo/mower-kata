@@ -5,7 +5,7 @@ L’objectif est de simuler plusieurs tondeuses se déplaçant sur une pelouse r
 
 Je suis parti du template fourni dans le repository fourni sur les recommendations du test, puis j’ai ajouté toute la logique métier, les classes nécessaires et les tests.
 
-## 📐 Diagramme de classes
+## Diagramme de classes
 
 Ce diagramme résume la structure globale utilisée dans le projet :
 
