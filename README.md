@@ -7,7 +7,7 @@ Je suis parti du template fourni sur les recommendations du test, puis j’ai aj
 
 ## Diagramme de classes
 
-Ce diagramme résume la structure globale utilisée dans le projet :
+Ce diagramme UML résume la structure globale que j'ai utilisée dans ce test :
 
 ![UML Diagram](uml.png)
 
