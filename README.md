@@ -25,14 +25,14 @@ Le projet est organisé en plusieurs classes, chacune ayant un rôle clair :
 ## Exemple d’exécution depuis l'énoncé
 
 **Entrée :**
-5 5
-1 2 N
-GAGAGAGAA
-3 3 E
+5 5<br>
+1 2 N<br>
+GAGAGAGAA<br>
+3 3 E<br>
 AADAADADDA
 
 **Sortie attendue :**
-1 3 N 
+1 3 N<br>
 5 1 E
 
 ![UML Diagram](result.png)
