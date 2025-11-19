@@ -24,8 +24,8 @@ Le projet est organisé en plusieurs classes, chacune ayant un rôle clair :
 
 ## Exemple d’exécution depuis l'énoncé
 
-**Entrée :**
-5 5
+**Entrée :**<br>
+5 5<br>
 1 2 N<br>
 GAGAGAGAA<br>
 3 3 E<br>
