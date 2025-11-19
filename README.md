@@ -35,7 +35,7 @@ AADAADADDA
 1 3 N 
 5 1 E
 
-![UML Diagram](uml.png)
+![UML Diagram](result.png)
 
 **Note : vous pouvez tester d'autre scénarios en changeant l'entrée dans le fichier MowerSimulationTest**
 
